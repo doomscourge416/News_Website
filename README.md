@@ -7,4 +7,4 @@
 
 # *How to open and run website*
 
-### Enter the website folder at file manager, and double-click index.html icon.
+### Run the link at 'About' section or open file index.html via file manager.
