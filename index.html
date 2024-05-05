@@ -9,6 +9,14 @@
 
 <body>
 
+
+    <div class="sidebar">
+        <a href="#vacancies">Вакансии</a>
+        <a href="#contact">Контакты</a>
+        <a href="#about">О нас</a>
+        <a href="#advertisement">Реклама</a>
+    </div>
+
     <header>
         <h1>Новости космоса</h1>
     </header>
@@ -106,5 +114,25 @@
 
         <div class="copyright">Copyright © Doomscourge 2023</div>
     </footer>
+
+
+
+    
+    <script>        
+
+        
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+            if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+                document.querySelector('.sidebar').style.transition = "top 1s ease";
+                document.querySelector('.sidebar').style.top = "0px";
+            } else {
+                
+                document.querySelector('.sidebar').style.transition = "top 1s ease";
+                document.querySelector('.sidebar').style.top = "-250px";
+            }
+        }
+    </script>
 </body>
 </html>
